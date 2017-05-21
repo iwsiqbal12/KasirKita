@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:gravity="center|fill"
+    android:orientation="vertical"
+    android:scrollIndicators="start|end"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topheader" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:fillViewport="false"
+        android:fitsSystemWindows="false"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnNewOrder"
+                    android:layout_width="176dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="0.18"
+                    android:background="@android:drawable/screen_background_dark_transparent"
+                    android:drawableTop="@android:drawable/ic_dialog_email"
+                    android:elevation="2dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center|fill"
+                    android:padding="20dp"
+                    android:singleLine="false"
+                    android:text="Pesanan Baru"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btnItemMaster"
+                    android:layout_width="176dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="3dp"
+                    android:layout_rowSpan="6"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/screen_background_dark_transparent"
+                    android:drawableTop="@android:drawable/ic_menu_crop"
+                    android:elevation="2dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center|fill"
+                    android:padding="20dp"
+                    android:singleLine="false"
+                    android:text="Daftar Item"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btnCategory"
+                    android:layout_width="176dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="0.11"
+                    android:background="@android:drawable/screen_background_dark_transparent"
+                    android:drawableTintMode="src_over"
+                    android:drawableTop="@android:drawable/ic_menu_my_calendar"
+                    android:elegantTextHeight="false"
+                    android:elevation="2dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:singleLine="false"
+                    android:text="Kategori"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btnSupplier"
+                    android:layout_width="165dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="0.89"
+                    android:background="@android:drawable/screen_background_dark_transparent"
+                    android:drawableTop="@android:drawable/ic_menu_mapmode"
+                    android:elegantTextHeight="false"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:singleLine="false"
+                    android:text="Suppliers"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCustomer"
+                    android:layout_width="176dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="0.02"
+                    android:background="@android:drawable/screen_background_dark_transparent"
+                    android:drawableTintMode="src_over"
+                    android:drawableTop="@android:drawable/ic_menu_my_calendar"
+                    android:elegantTextHeight="false"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:singleLine="false"
+                    android:text="Customers"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btnTable"
+                    android:layout_width="176dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="0.13"
+                    android:background="@android:drawable/screen_background_dark_transparent"
+                    android:drawableTintMode="src_over"
+                    android:drawableTop="@android:drawable/ic_menu_rotate"
+                    android:elegantTextHeight="false"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:singleLine="false"
+                    android:text="Meja"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btnWaiters"
+                    android:layout_width="176dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="0.33"
+                    android:background="@android:drawable/screen_background_dark_transparent"
+                    android:drawableTintMode="src_over"
+                    android:drawableTop="@android:drawable/ic_menu_myplaces"
+                    android:elegantTextHeight="false"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:singleLine="false"
+                    android:text="Waiters"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btnHelp"
+                    android:layout_width="176dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="0.58"
+                    android:background="@android:drawable/screen_background_dark_transparent"
+                    android:clickable="false"
+                    android:drawableTop="@android:drawable/ic_menu_help"
+                    android:ellipsize="middle"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="20dp"
+                    android:singleLine="false"
+                    android:text="@string/menu_utama_help"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/btnExit"
+                    android:layout_width="166dp"
+                    android:layout_height="match_parent"
+                    android:layout_columnSpan="2"
+                    android:layout_weight="0.63"
+                    android:background="@android:drawable/screen_background_dark_transparent"
+                    android:drawableTop="@android:drawable/ic_delete"
+                    android:ellipsize="middle"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:padding="20dp"
+                    android:singleLine="false"
+                    android:text="@string/menu_utama_exit"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btnCredit"
+                    android:layout_width="176dp"
+                    android:layout_height="match_parent"
+                    android:layout_columnSpan="2"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:drawable/screen_background_dark_transparent"
+                    android:ellipsize="middle"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:padding="20dp"
+                    android:singleLine="false"
+                    android:text="Credit"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:layout_weight="0.40" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

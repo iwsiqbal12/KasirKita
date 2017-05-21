@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Kasir Kita</string>
+    <string name="quit">Exit Kasir</string>
+    <string name="really_quit">Realy Quit ?</string>
+    <string name="yes">Yes</string>
+    <string name="help">
+        1. Petunjuk Pengunnaan : \n - Buatlah daftar Supplier terlebih dahulu \n
+        - Buatlah daftar Kategori terlebih dahulu \n
+        - Buatlah daftar Item terlebih dahulu \n
+        - Langkah-Langkah diatas berguna mengurangi bug atau error pada Aplikasi ketikan membuat Pesanan Baru \n\n
+         Bantuan :  This page. \n
+         Keluar :  Mengakhiri Aplikasi \n\n
+        2. Tentang : \n
+            Nama Aplikasi: Kasir Kita \n
+            Minimal Sdk : API 19 ( Kitkat) \n
+            Versi : 1.0 \n
+            Tools : \n - Android Studio 2.3.1 \n
+                    - Build Gradle 3.3 \n
+                    - Sql Lite  \n\n
+        3. Credit : \n
+            Nama Pembuat : Iqbal Wahyu Septian \n
+
+
+
+
+
+    </string>
+    <string name="title_activity_help">HelpActivity</string>
+
+    <string name="menu_utama_transaction">Transaksi</string>
+    <string name="menu_utama_reports">Reports</string>
+    <string name="menu_utama_master">Master</string>
+    <string name="menu_utama_setting">Setting</string>
+    <string name="menu_utama_help">Bantuan</string>
+    <string name="menu_utama_exit">Keluar</string>
+
+    <string name="mnu_tran_new_order">Pesanan Baru</string>
+    <string name="mnu_tran_order_open">Pending Order</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_test3">test3</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_tes3">tes3</string>
+    <string name="action_register">Register</string>
+    <string name="login_text">Enter your valid username and password here</string>
+
+</resources>

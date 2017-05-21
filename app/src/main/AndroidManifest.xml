@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.talagasoft.schopfer">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.schopfer.kasir.Splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.schopfer.Splash" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.kasir.MenuUtama">
+            <intent-filter>
+                <action android:name="com.example.schopfer.kasir.MenuUtama" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.kasir.Help" />
+        <activity android:name="com.example.schopfer.kasir.Sales">
+            <intent-filter>
+                <action android:name="com.example.schopfer.kasir.Sales" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.admin.CategoryList">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.admin.CustomersList">
+            <intent-filter>
+                <action android:name="com.example.schopfer.admin.CustomersList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.admin.ItemMasterList">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.PendingOrder">
+            <intent-filter>
+                <action android:name="com.example.schopfer.kasir.PendingOrder" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.kasir.Reports">
+            <intent-filter>
+                <action android:name="com.example.schopfer.kasir.Reports" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.kasir.Setting">
+            <intent-filter>
+                <action android:name="com.example.schopfer.kasir.Setting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.admin.TablesList">
+            <intent-filter>
+                <action android:name="com.example.schopfer.admin.TablesList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.admin.TablesInput">
+            <intent-filter>
+                <action android:name="com.example.schopfer.admin.TablesInput" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.admin.SuppliersList">
+            <intent-filter>
+                <action android:name="com.example.schopfer.admin.SupplierList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.admin.WaitersList">
+            <intent-filter>
+                <action android:name="com.example.schopfer.admin.WaitersList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.admin.WaitersInput">
+            <intent-filter>
+                <action android:name="com.example.schopfer.admin.WaitersInput" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.admin.ItemMasterInput">
+            <intent-filter>
+                <action android:name="com.example.schopfer.admin.ItemMasterInput" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.schopfer.kasir.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.schopfer.kasir.LoginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.admin.CategoryInput">
+            <intent-filter>
+                <action android:name="com.example.schopfer.admin.CategoryInput" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.admin.CustomersInput">
+            <intent-filter>
+                <action android:name="com.example.schopfer.admin.CustomersInput" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.admin.SuppliersInput">
+            <intent-filter>
+                <action android:name="com.example.schopfer.admin.SuppliersInput" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.model.ItemMasterSelect">
+            <intent-filter>
+                <action android:name="com.example.schopfer.model.ItemMasterSelect" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.model.SalesPaymentCash">
+            <intent-filter>
+                <action android:name="com.example.schopfer.model.SalesPaymentCash" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.model.SalesPaymentCard">
+            <intent-filter>
+                <action android:name="com.example.schopfer.model.SalesPaymentCard" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.schopfer.kasir.Credit"></activity>
+    </application>
+
+</manifest>
